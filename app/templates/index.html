@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Textbox Example</title></head>
+<body>
+  <h2>Type any text in here</h2>
+  <form action="/login" method="POST">
+    <input type="text" name="user_id" placeholder="id" />
+    <input type="text" name="user_pw" placeholder="pw" />
+    <button type="submit">submit</button>
+    <button formaction="/create" type="submit">create</button>
+    <button formaction="/add" formmethod="GET" type="submit">add</button>
+    
+  </form>
+  <form>
+    <button formaction="/protected" formmethod="GET" type="submit">security</button>
+  </form>
+  
+</body>
+</html>
